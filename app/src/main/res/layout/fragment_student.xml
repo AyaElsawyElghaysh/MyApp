@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="20dp"
+            android:text="@string/haveaccount"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/StuBtnLogin"
+            android:layout_width="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_style_sign"
+            android:text="@string/login"
+            android:textColor="#EF5350"
+            android:textSize="24sp" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/or_register_please"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:weightSum="4">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/StueditName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:hint="@string/enter_your_name"
+                        android:inputType="text"
+                        android:textColorHint="#EF5350"
+
+                        />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Stueditphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:hint="@string/enter_your_phone"
+                        android:textColorHint="#EF5350"
+
+                        />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/StueditSSN"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:hint="@string/enter_your_id"
+                        android:inputType="number"
+                        android:textColorHint="#EF5350"
+
+                        />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/StueditEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:hint="@string/enter_your_email"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="#EF5350"
+
+                        />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/StuBtnRegister"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_style_sign"
+                android:text="@string/register"
+                android:textColor="#EF5350"
+                android:textSize="24sp" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

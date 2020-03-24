@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_your_id">Enter your ID</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="enter_your_phone">Enter your phone</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="doctor_phone">Doctor phone</string>
+    <string name="doctor_sepecialization">Doctor Sepecialization</string>
+    <string name="you_already_have_an_acconut">You Already have an acconut</string>
+    <string name="have_acconut">Click on the Button if you have an account</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="or_register_now_please">OR Register Now please</string>
+    <string name="haveaccount">Login if you have an account</string>
+    <string name="have_account">Login if you have account</string>
+    <string name="or_register_please">OR REGISTER PLEASE ..</string>
+
+</resources>
